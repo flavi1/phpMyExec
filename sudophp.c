@@ -7,7 +7,7 @@
 
 main(int argc, char**argv)
 {
-    const char* php_exec = "/usr/bin/php ";
+    const char* php_exec = "/usr/bin/php myexec.php ";
     char* command;
     int ok = 0;
     int uid,gid;
